@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.align-center {
+    text-align: center;
+}

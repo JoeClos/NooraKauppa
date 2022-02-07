@@ -1,0 +1,12 @@
+2022-02-07 13:57:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (OSASTO: ""OSASTOID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."OSASTO"("ID","NIMI","OSASTOID")VALUES(?,?,?) [22018-200]
+2022-02-07 13:57:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (OSASTO: ""OSASTOID"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."OSASTO"("ID","NIMI","OSASTOID")VALUES(?,?,?) [22018-200]
+2022-02-07 14:00:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (OSASTO: ""ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."OSASTO"("ID","NIMI","OSASTOID")VALUES(?,?,?) [22018-200]
+2022-02-07 14:00:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'' (OSASTO: ""ID"" BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."OSASTO"("ID","NIMI","OSASTOID")VALUES(?,?,?) [22018-200]
