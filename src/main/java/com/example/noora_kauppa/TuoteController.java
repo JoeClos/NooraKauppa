@@ -14,10 +14,6 @@ public class TuoteController {
     private TuoteRepository tuoteRepository;
 
 
-    @GetMapping("/kahvilaitteet")
-    public String näyttäKahvilaitteet(Model model) {
-        List<Long> kahvilaitteet = Arrays.asList(3L, 4L, 5L);
-        List<Tuote> tuotteet = kahvikauppaService.haeKaikkiKahvilaitteet(kahvilaitteet);
-    }
+    
 
 }
