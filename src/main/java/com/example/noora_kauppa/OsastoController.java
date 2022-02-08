@@ -12,16 +12,16 @@ import org.springframework.ui.Model;
 
 @Controller
 public class OsastoController {
-    @Autowired
-    private OsastoRepository osastoRepository;
+    // @Autowired
+    // private OsastoRepository osastoRepository;
 
    
 
-    @GetMapping("/index")
-    public String showList(Model model) {
-        model.addAttribute("showPage", osastoRepository.findAll());
-        return "index";
-    }
+    // @GetMapping("/index")
+    // public String showList(Model model) {
+    //     model.addAttribute("showPage", osastoRepository.findAll());
+    //     return "index";
+    // }
 
 
     
